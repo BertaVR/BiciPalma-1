@@ -22,8 +22,4 @@ public class AnclajeTest {
         assertNotNull(this.bici);
     }
 
-    @Test
-    public void getBici() {
-        assertEquals(215, Movil.Anclaje.getBici(bici));
-    }
 }
