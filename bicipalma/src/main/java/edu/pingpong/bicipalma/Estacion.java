@@ -50,6 +50,9 @@ public long anclajesLibres(){
     return Arrays.stream(anclajes()).filter(a -> !a.isOcupado()).count();
 
 }
+public void anclarBicicleta(Movil bici){
+
+}
 
 
 }
