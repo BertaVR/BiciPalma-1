@@ -30,6 +30,6 @@ public class Anclaje {
 
     @Override
     public String toString() {
-        return Boolean.toString(isOcupado());
+        return "Ocupado:" + Boolean.toString(isOcupado());
     }
 }
