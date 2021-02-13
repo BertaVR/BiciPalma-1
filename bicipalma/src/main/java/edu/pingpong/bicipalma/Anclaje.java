@@ -6,8 +6,7 @@ public class Anclaje {
     private boolean ocupado = false;
     private Movil bici = null;
 
-    Anclaje() {
-    };
+    Anclaje() {};
 
     boolean isOcupado() {
         return ocupado;
