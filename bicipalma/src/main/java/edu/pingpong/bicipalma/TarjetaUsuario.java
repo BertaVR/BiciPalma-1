@@ -18,7 +18,11 @@ public class TarjetaUsuario implements Autenticacion {
     }
 
     public void setActivada(boolean activada) {
+        this.activada = activada;
+    }
 
+    public String getId() {
+        return id;
     }
 
 }
