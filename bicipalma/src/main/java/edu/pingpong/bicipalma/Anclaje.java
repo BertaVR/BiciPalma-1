@@ -6,8 +6,7 @@ public class Anclaje {
     private boolean ocupado = false;
     private Movil bici = null;
 
-    Anclaje() {
-    };
+    Anclaje() {};
 
     boolean isOcupado() {
         return ocupado;
@@ -30,6 +29,6 @@ public class Anclaje {
 
     @Override
     public String toString() {
-        return Boolean.toString(isOcupado());
+        return "Ocupado:" + Boolean.toString(isOcupado());
     }
 }
