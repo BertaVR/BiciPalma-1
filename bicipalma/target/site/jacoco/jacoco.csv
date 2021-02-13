@@ -1,7 +1,0 @@
-GROUP,PACKAGE,CLASS,INSTRUCTION_MISSED,INSTRUCTION_COVERED,BRANCH_MISSED,BRANCH_COVERED,LINE_MISSED,LINE_COVERED,COMPLEXITY_MISSED,COMPLEXITY_COVERED,METHOD_MISSED,METHOD_COVERED
-bicipalma,edu.pingpong.bicipalma,Anclaje,0,34,0,0,0,12,0,6,0,6
-bicipalma,edu.pingpong.bicipalma,BiciPalma,128,0,2,0,31,0,3,0,2,0
-bicipalma,edu.pingpong.bicipalma,Estacion,44,127,4,8,10,29,9,14,6,11
-bicipalma,edu.pingpong.bicipalma,Anclajes,16,57,0,2,3,15,2,9,2,8
-bicipalma,edu.pingpong.bicipalma,Bicicleta,0,13,0,0,0,5,0,3,0,3
-bicipalma,edu.pingpong.bicipalma,TarjetaUsuario,0,22,0,0,0,9,0,4,0,4
