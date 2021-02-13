@@ -4,4 +4,5 @@ edu\pingpong\bicipalma\Movil.class
 edu\pingpong\bicipalma\TarjetaUsuario.class
 edu\pingpong\bicipalma\Estacion.class
 edu\pingpong\bicipalma\Anclaje.class
+edu\pingpong\bicipalma\BiciPalma.class
 edu\pingpong\bicipalma\Anclajes.class

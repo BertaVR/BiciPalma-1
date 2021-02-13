@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
-Test set: edu.pingpong.bicipalma.BicipalmaTest
+Test set: edu.pingpong.bicipalma.BiciPalmaTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.006 s - in edu.pingpong.bicipalma.BicipalmaTest
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.002 s - in edu.pingpong.bicipalma.BiciPalmaTest

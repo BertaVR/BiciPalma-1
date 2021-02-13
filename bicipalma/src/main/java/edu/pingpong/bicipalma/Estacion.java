@@ -34,7 +34,7 @@ public class Estacion {
 
     @Override
     public String toString() {
-        return String.format("id: %d %ndireccion: %s %nanclajes: %s", // COMENTAR
+        return String.format("id: %d direccion: %s anclajes: %s", // COMENTAR
                 getId(), getDireccion(), numAnclajes());
     }
 
@@ -87,15 +87,29 @@ public class Estacion {
             System.out.println("Tarjeta de usuario inactiva :(");
         }
     }
+
+    private void mostrarBicicleta(Movil bici, int numeroAnclaje) {
+        System.out.println("bicicleta retirada " + bici.getId() + " del anclaje: " + numeroAnclaje);
+    }
+
+    private void mostrarAnclaje(Movil bici, int numeroAnclaje) {
+        System.out.println("bicicleta" + bici.getId() + "anclada en el anclaje" + numeroAnclaje);
+    }
+
+    public void consultarAnclajes() {
+        Arrays.stream(anclajes()).map(a -> Optional.ofNullable(a.getBici()))
+                .forEach(bici -> System.out.print("Anclaje " + (bici.isPresent() ? bici.get() : "libre") + '\n'));
+    }
+    // FORMA FACILITA DE HACERLO
+    /**
+     * int posicion = 0; int numeroAnclaje = 0;
+     * 
+     * for (Anclaje anclaje : anclajes()) { numeroAnclaje = posicion + 1; if
+     * (anclaje.isOcupado()) { System.out.println("Anclaje " + numeroAnclaje + " " +
+     * anclaje.getBici().getId()); } else { System.out.println("Anclaje " +
+     * numeroAnclaje + " " + " libre"); } posicion++; }
+     */
 }
-
-// private void mostrarBicicleta(Movil bici, int numeroAnclaje){
-
-// }
-// private void mostratAnclaje(Movil bici, int numeroAnclaje){
-
-// }
-// public void consultarAnclajes(){
 
 // }
 // }

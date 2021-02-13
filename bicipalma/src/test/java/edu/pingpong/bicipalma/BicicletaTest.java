@@ -26,8 +26,13 @@ public class BicicletaTest {
     }
 
     @Test
-
     public void toStringTest() {
+        assertEquals("215", bici.toString());
+    }
+
+    @Test
+
+    public void toStringTest_borrar() {
         assertEquals("215", Integer.toString(this.bici.getId()));
     }
 
